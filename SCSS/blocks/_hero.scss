@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+.hero {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-image: url(./../../IMAGES/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__box {
+    padding: 160px 0px 220px 0px;
+    max-width: 563px;
+    width: 100%;
+     
+
+    &-h1 {
+      color: var(--Off-white, #f5f5f5);
+      font-family: Lexend Deca;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+    }
+    &-p {
+      color: var(--Off-white, #f5f5f5);
+      font-family: Lexend Deca;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+    }
+  }
+
+  &__box2 {
+    display: flex;
+    gap: 20px;
+
+    &-emailBox {
+      max-width: 298px;
+      background-color: #fff;
+    }
+
+    &-btn {
+      padding: 10px 44px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      border-radius: 4px;
+      background: var(--Soft-Blue, #5468e7);
+      color: var(--Off-white, #f5f5f5);
+      text-align: center;
+      font-family: Lexend Deca;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      border-style: none;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-image: url(./../../IMAGES/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    &__box {
+      padding: 160px 0px 220px 0px;
+      max-width: 563px;
+      width: 100%;
+       
+  
+      &-h1 {
+        margin-top: 200px;
+        color: var(--Off-white, #f5f5f5);
+        font-family: Lexend Deca;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+      }
+      &-p {
+        color: var(--Off-white, #f5f5f5);
+        font-family: Lexend Deca;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+      }
+    }
+  
+    &__box2 {
+      display: flex;
+      gap: 20px;
+  
+      &-emailBox {
+        max-width: 298px;
+        background-color: #fff;
+      }
+  
+      &-btn {
+        padding: 10px 44px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 4px;
+        background: var(--Soft-Blue, #5468e7);
+        color: var(--Off-white, #f5f5f5);
+        text-align: center;
+        font-family: Lexend Deca;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        border-style: none;
+      }
+    }
+  }
+
+  
+
+}

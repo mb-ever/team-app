@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap");
+header {
+  padding: 40px 0px;
+  
+}
+.container {
+  max-width: 1200px;
+  
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 138px;
+    height: 52px;
+  }
+
+  &__box {
+    display: flex;
+    max-width: 625px;
+    width: 100%;
+    justify-content: space-between;
+     
+
+    &__list {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      max-width: 384px;
+      width: 100%;
+      gap: 10px;
+      align-items: center;
+      color: var(--Off-White, #f5f5f5);
+      text-shadow: 0px 8px 16px rgba(35, 35, 64, 0.6);
+      font-family: Lexend Deca;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 150%; 
+      text-decoration-line: underline;
+
+      .navbar__list-item{
+
+        &-link{
+          color: white;
+        }
+      }
+      
+    }
+  }
+ &__btn {
+    display: flex;
+    padding: 10px 44px;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(84, 104, 231, 0.50);
+    color: var(--Off-white, #f5f5f5);
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    border-style: none;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  header {
+    padding: 40px 0px;
+    
+  }
+  .container {
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+  
+  .navbar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__logo {
+      margin-right: 15px;
+      width: 138px;
+      height: 52px;
+      
+    }
+  
+    &__box {
+      display: flex;
+      max-width: 625px;
+      width: 100%;
+      justify-content: space-between;
+       
+  
+      &__list {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        max-width: 384px;
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+         
+        color: var(--Off-White, #f5f5f5);
+        text-shadow: 0px 8px 16px rgba(35, 35, 64, 0.6);
+        font-family: Lexend Deca;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%; 
+        text-decoration-line: underline;
+  
+        .navbar__list-item{
+  
+          &-link{
+            color: white;
+             
+          }
+        }
+        
+      }
+    }
+   &__btn {
+    display: flex;
+    padding: 10px 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(84, 104, 231, 0.50);
+    }
+  }
+    
+}
